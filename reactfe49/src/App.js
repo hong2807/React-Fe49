@@ -7,6 +7,10 @@ import BaiTapLayout1 from './Components/BaiTapLayout1/BaiTapLayout1';
 import BaiTapLayout2 from './Components/BaiTapLayout2/BaiTapLayout2';
 import DataBinding from './DataBinding/DataBinding';
 import HandleEvent from './HandleEvent/HandleEvent';
+import Styling from './Stylingcomponent/Styling';
+import RenderWithState from './RenderWithState/RenderWithState';
+import BaiTapChonXe from './RenderWithState/BaiTapChonXe';
+import RenderWithMap from './RenderWithMap/RenderWithMap';
 
 function App() {
   return (
@@ -17,7 +21,13 @@ function App() {
         {/* <BaiTapLayout1/> */}
         {/* <BaiTapLayout2/> */}
         {/* <DataBinding/> */}
-        <HandleEvent/>
+        {/* <HandleEvent/> */}
+
+      {/* Buổi 2 */}
+        {/* <Styling/> */}
+        {/* <RenderWithState/> */}
+        {/* <BaiTapChonXe/> */}
+        <RenderWithMap/>
     </div>
   );
 }
